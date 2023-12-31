@@ -16,10 +16,21 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    color: gray;
+    font-size: 21px;
+}
+
 body {
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 /* Utility CSS */
@@ -29,4 +40,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Content */
+
+#link {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+
+.footer {
+    text-align: right;
+    color: gray;
 }
